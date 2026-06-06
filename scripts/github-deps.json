@@ -1,0 +1,1656 @@
+[
+  {
+    "name": "setuptools",
+    "version_constraint": "setuptools>=64.0.0",
+    "repo": "https://github.com/pypa/setuptools",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "build-tooling",
+    "required_by": [
+      "pyproject.toml build-system.requires"
+    ],
+    "source_of_truth": "pyproject.toml",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/setuptools/"
+  },
+  {
+    "name": "wheel",
+    "version_constraint": "wheel",
+    "repo": "https://github.com/pypa/wheel",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "build-tooling",
+    "required_by": [
+      "pyproject.toml build-system.requires"
+    ],
+    "source_of_truth": "pyproject.toml",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/wheel/"
+  },
+  {
+    "name": "aiofiles",
+    "version_constraints": [
+      "aiofiles>=24.1.0"
+    ],
+    "repo": "https://github.com/Tinche/aiofiles",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/aiofiles/"
+  },
+  {
+    "name": "aiohttp",
+    "version_constraints": [
+      "aiohttp>=3.11.11"
+    ],
+    "repo": "https://github.com/aio-libs/aiohttp",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/aiohttp/"
+  },
+  {
+    "name": "aiosqlite",
+    "version_constraints": [
+      "aiosqlite~=0.20"
+    ],
+    "repo": "https://github.com/omnilib/aiosqlite",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/aiosqlite/"
+  },
+  {
+    "name": "anyio",
+    "version_constraints": [
+      "anyio>=4.0.0"
+    ],
+    "repo": "https://github.com/agronholm/anyio",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/anyio/"
+  },
+  {
+    "name": "lxml",
+    "version_constraints": [
+      "lxml~=5.3"
+    ],
+    "repo": "https://github.com/lxml/lxml",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/lxml/"
+  },
+  {
+    "name": "unclecode-litellm",
+    "version_constraints": [
+      "unclecode-litellm==1.81.13"
+    ],
+    "repo": "https://github.com/unclecode/litellm",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/unclecode-litellm/"
+  },
+  {
+    "name": "numpy",
+    "version_constraints": [
+      "numpy>=1.26.0,<3"
+    ],
+    "repo": "https://github.com/numpy/numpy",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/numpy/"
+  },
+  {
+    "name": "pillow",
+    "version_constraints": [
+      "pillow>=10.4"
+    ],
+    "repo": "https://github.com/python-pillow/Pillow",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/Pillow/"
+  },
+  {
+    "name": "playwright",
+    "version_constraints": [
+      "playwright>=1.49.0"
+    ],
+    "repo": "https://github.com/microsoft/playwright-python",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/playwright/"
+  },
+  {
+    "name": "patchright",
+    "version_constraints": [
+      "patchright>=1.49.0"
+    ],
+    "repo": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/patchright/"
+  },
+  {
+    "name": "python-dotenv",
+    "version_constraints": [
+      "python-dotenv~=1.0"
+    ],
+    "repo": "https://github.com/theskumar/python-dotenv",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/python-dotenv/"
+  },
+  {
+    "name": "requests",
+    "version_constraints": [
+      "requests~=2.26"
+    ],
+    "repo": "https://github.com/psf/requests",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/requests/"
+  },
+  {
+    "name": "beautifulsoup4",
+    "version_constraints": [
+      "beautifulsoup4~=4.12"
+    ],
+    "repo": "https://github.com/qundao/mirror-beautifulsoup4",
+    "ref": "974559b0e411a92c0422f5a6c26b78e676ec457e",
+    "ref_type": "commit",
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref resolved to approved GitHub mirror commit; transitive dependencies still must be enumerated explicitly.",
+    "official_repo": "https://code.launchpad.net/beautifulsoup",
+    "evidence_url": "https://github.com/qundao/mirror-beautifulsoup4",
+    "approved_non_official_github_source": true,
+    "notes": "User approved a GitHub fork/source. Bowser found no upstream-maintained GitHub repo; using third-party mirror with tag 4.14.3 at commit 974559b0e411a92c0422f5a6c26b78e676ec457e. Compare against official Launchpad/PyPI source if stronger supply-chain assurance is required."
+  },
+  {
+    "name": "playwright-stealth",
+    "version_constraints": [
+      "playwright-stealth>=2.0.0"
+    ],
+    "repo": "https://github.com/Mattwmaster58/playwright_stealth",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/playwright-stealth/"
+  },
+  {
+    "name": "xxhash",
+    "version_constraints": [
+      "xxhash~=3.4"
+    ],
+    "repo": "https://github.com/ifduyue/python-xxhash",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/xxhash/"
+  },
+  {
+    "name": "rank-bm25",
+    "version_constraints": [
+      "rank-bm25~=0.2"
+    ],
+    "repo": "https://github.com/dorianbrown/rank_bm25",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/rank-bm25/"
+  },
+  {
+    "name": "snowballstemmer",
+    "version_constraints": [
+      "snowballstemmer~=2.2"
+    ],
+    "repo": "https://github.com/snowballstem/snowball",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/snowballstemmer/"
+  },
+  {
+    "name": "pydantic",
+    "version_constraints": [
+      "pydantic>=2.10"
+    ],
+    "repo": "https://github.com/pydantic/pydantic",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/pydantic/"
+  },
+  {
+    "name": "pyopenssl",
+    "version_constraints": [
+      "pyOpenSSL>=25.3.0"
+    ],
+    "repo": "https://github.com/pyca/pyopenssl",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/pyOpenSSL/"
+  },
+  {
+    "name": "psutil",
+    "version_constraints": [
+      "psutil>=6.1.1"
+    ],
+    "repo": "https://github.com/giampaolo/psutil",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/psutil/"
+  },
+  {
+    "name": "pyyaml",
+    "version_constraints": [
+      "PyYAML>=6.0"
+    ],
+    "repo": "https://github.com/yaml/pyyaml",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/PyYAML/"
+  },
+  {
+    "name": "nltk",
+    "version_constraints": [
+      "nltk>=3.9.1"
+    ],
+    "repo": "https://github.com/nltk/nltk",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/nltk/"
+  },
+  {
+    "name": "rich",
+    "version_constraints": [
+      "rich>=13.9.4"
+    ],
+    "repo": "https://github.com/Textualize/rich",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/rich/"
+  },
+  {
+    "name": "cssselect",
+    "version_constraints": [
+      "cssselect>=1.2.0"
+    ],
+    "repo": "https://github.com/scrapy/cssselect",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/cssselect/"
+  },
+  {
+    "name": "httpx",
+    "version_constraints": [
+      "httpx>=0.27.2",
+      "httpx[http2]>=0.27.2"
+    ],
+    "repo": "https://github.com/encode/httpx",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [
+      "http2"
+    ],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/httpx/"
+  },
+  {
+    "name": "fake-useragent",
+    "version_constraints": [
+      "fake-useragent>=2.0.3"
+    ],
+    "repo": "https://github.com/fake-useragent/fake-useragent",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/fake-useragent/"
+  },
+  {
+    "name": "click",
+    "version_constraints": [
+      "click>=8.1.7"
+    ],
+    "repo": "https://github.com/pallets/click",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/click/"
+  },
+  {
+    "name": "chardet",
+    "version_constraints": [
+      "chardet>=5.2.0"
+    ],
+    "repo": "https://github.com/chardet/chardet",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/chardet/"
+  },
+  {
+    "name": "brotli",
+    "version_constraints": [
+      "brotli>=1.1.0"
+    ],
+    "repo": "https://github.com/google/brotli",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/Brotli/"
+  },
+  {
+    "name": "humanize",
+    "version_constraints": [
+      "humanize>=4.10.0"
+    ],
+    "repo": "https://github.com/python-humanize/humanize",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/humanize/"
+  },
+  {
+    "name": "lark",
+    "version_constraints": [
+      "lark>=1.2.2"
+    ],
+    "repo": "https://github.com/lark-parser/lark",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/lark/"
+  },
+  {
+    "name": "alphashape",
+    "version_constraints": [
+      "alphashape>=1.3.1"
+    ],
+    "repo": "https://github.com/bellockk/alphashape",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/alphashape/"
+  },
+  {
+    "name": "shapely",
+    "version_constraints": [
+      "shapely>=2.0.0"
+    ],
+    "repo": "https://github.com/shapely/shapely",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "direct",
+    "required_by": [
+      "project"
+    ],
+    "source_of_truth": "pyproject.toml [project].dependencies",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main. Transitive dependencies still must be enumerated explicitly.",
+    "evidence_url": "https://pypi.org/project/shapely/"
+  },
+  {
+    "name": "aiohappyeyeballs",
+    "repo": "https://github.com/aio-libs/aiohappyeyeballs",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "aiohttp"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/aiohappyeyeballs/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "aiosignal",
+    "repo": "https://github.com/aio-libs/aiosignal",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "aiohttp"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/aiosignal/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "annotated-doc",
+    "repo": "https://github.com/fastapi/annotated-doc",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "typer"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/annotated-doc/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "annotated-types",
+    "repo": "https://github.com/annotated-types/annotated-types",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "pydantic"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/annotated-types/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "async-timeout",
+    "repo": "https://github.com/aio-libs/async-timeout",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "aiohttp"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/async-timeout/",
+    "notes": "Python <3.11 only; relevant because project supports >=3.10",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "attrs",
+    "repo": "https://github.com/python-attrs/attrs",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "aiohttp",
+      "jsonschema",
+      "referencing"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/attrs/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "certifi",
+    "repo": "https://github.com/certifi/python-certifi",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "httpcore",
+      "httpx",
+      "requests"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/certifi/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "cffi",
+    "repo": "https://github.com/python-cffi/cffi",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "cryptography"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/cffi/",
+    "notes": "runtime Requires-Dist on non-PyPy",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "charset-normalizer",
+    "repo": "https://github.com/jawah/charset_normalizer",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "requests"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/charset-normalizer/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "click-log",
+    "repo": "https://github.com/click-contrib/click-log",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "alphashape"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/click-log/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "cryptography",
+    "repo": "https://github.com/pyca/cryptography",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "pyopenssl"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/cryptography/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "distro",
+    "repo": "https://github.com/python-distro/distro",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "openai"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/distro/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "exceptiongroup",
+    "repo": "https://github.com/agronholm/exceptiongroup",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "anyio"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/exceptiongroup/",
+    "notes": "Python <3.11 only; relevant because project supports >=3.10",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "fastuuid",
+    "repo": "https://github.com/thedrow/fastuuid",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "unclecode-litellm"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/fastuuid/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "filelock",
+    "repo": "https://github.com/tox-dev/py-filelock",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "huggingface-hub"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/filelock/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "frozenlist",
+    "repo": "https://github.com/aio-libs/frozenlist",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "aiohttp",
+      "aiosignal"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/frozenlist/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "fsspec",
+    "repo": "https://github.com/fsspec/filesystem_spec",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "huggingface-hub"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/fsspec/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "greenlet",
+    "repo": "https://github.com/python-greenlet/greenlet",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "patchright",
+      "playwright"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/greenlet/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "h11",
+    "repo": "https://github.com/python-hyper/h11",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "httpcore"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/h11/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "h2",
+    "repo": "https://github.com/python-hyper/h2",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "httpx"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/h2/",
+    "notes": "from direct httpx[http2] extra",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "hf-xet",
+    "repo": "https://github.com/huggingface/xet-core",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "huggingface-hub"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/hf-xet/",
+    "notes": "platform-conditional on x86_64/arm64/aarch64",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "hpack",
+    "repo": "https://github.com/python-hyper/hpack",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "h2"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/hpack/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "httpcore",
+    "repo": "https://github.com/encode/httpcore",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "httpx"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/httpcore/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "huggingface-hub",
+    "repo": "https://github.com/huggingface/huggingface_hub",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "tokenizers"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/huggingface-hub/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "hyperframe",
+    "repo": "https://github.com/python-hyper/hyperframe",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "h2"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/hyperframe/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "idna",
+    "repo": "https://github.com/kjd/idna",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "anyio",
+      "httpx",
+      "requests",
+      "yarl"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/idna/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "importlib-metadata",
+    "repo": "https://github.com/python/importlib_metadata",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "unclecode-litellm"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/importlib-metadata/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "jinja2",
+    "repo": "https://github.com/pallets/jinja",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "unclecode-litellm"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/Jinja2/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "jiter",
+    "repo": "https://github.com/pydantic/jiter",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "openai"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/jiter/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "joblib",
+    "repo": "https://github.com/joblib/joblib",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "nltk"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/joblib/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "jsonschema",
+    "repo": "https://github.com/python-jsonschema/jsonschema",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "unclecode-litellm"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/jsonschema/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "jsonschema-specifications",
+    "repo": "https://github.com/python-jsonschema/jsonschema-specifications",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "jsonschema"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/jsonschema-specifications/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "markdown-it-py",
+    "repo": "https://github.com/executablebooks/markdown-it-py",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "rich"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/markdown-it-py/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "markupsafe",
+    "repo": "https://github.com/pallets/markupsafe",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "jinja2"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/MarkupSafe/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "mdurl",
+    "repo": "https://github.com/executablebooks/mdurl",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "markdown-it-py"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/mdurl/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "multidict",
+    "repo": "https://github.com/aio-libs/multidict",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "aiohttp",
+      "yarl"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/multidict/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "networkx",
+    "repo": "https://github.com/networkx/networkx",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "alphashape"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/networkx/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "openai",
+    "repo": "https://github.com/openai/openai-python",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "unclecode-litellm"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/openai/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "packaging",
+    "repo": "https://github.com/pypa/packaging",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "huggingface-hub"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/packaging/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "propcache",
+    "repo": "https://github.com/aio-libs/propcache",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "aiohttp",
+      "yarl"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/propcache/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "pycparser",
+    "repo": "https://github.com/eliben/pycparser",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "cffi"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/pycparser/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "pydantic-core",
+    "repo": "https://github.com/pydantic/pydantic",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": "pydantic-core",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "pydantic"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/pydantic-core/",
+    "notes": "pydantic monorepo subdir pydantic-core",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "pyee",
+    "repo": "https://github.com/jfhbrook/pyee",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "patchright",
+      "playwright"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/pyee/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "pygments",
+    "repo": "https://github.com/pygments/pygments",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "rich"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/Pygments/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "referencing",
+    "repo": "https://github.com/python-jsonschema/referencing",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "jsonschema",
+      "jsonschema-specifications"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/referencing/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "regex",
+    "repo": "https://github.com/mrabarnett/mrab-regex",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "nltk",
+      "tiktoken"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/regex/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "rpds-py",
+    "repo": "https://github.com/crate-py/rpds",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "jsonschema",
+      "referencing"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/rpds-py/",
+    "notes": "PyPI source points to crate-py/rpds; also links upstream orium/rpds",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "rtree",
+    "repo": "https://github.com/Toblerity/rtree",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "alphashape"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/rtree/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "scipy",
+    "repo": "https://github.com/scipy/scipy",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "alphashape"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/scipy/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "shellingham",
+    "repo": "https://github.com/sarugaku/shellingham",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "typer"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/shellingham/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "sniffio",
+    "repo": "https://github.com/python-trio/sniffio",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "openai"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/sniffio/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "soupsieve",
+    "repo": "https://github.com/facelessuser/soupsieve",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "beautifulsoup4"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/soupsieve/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "tiktoken",
+    "repo": "https://github.com/openai/tiktoken",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "unclecode-litellm"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/tiktoken/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "tokenizers",
+    "repo": "https://github.com/huggingface/tokenizers",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "unclecode-litellm"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/tokenizers/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "tqdm",
+    "repo": "https://github.com/tqdm/tqdm",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "huggingface-hub",
+      "nltk",
+      "openai"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/tqdm/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "trimesh",
+    "repo": "https://github.com/mikedh/trimesh",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "alphashape"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/trimesh/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "typer",
+    "repo": "https://github.com/fastapi/typer",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "huggingface-hub"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/typer/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "typing-extensions",
+    "repo": "https://github.com/python/typing_extensions",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "aiohttp",
+      "aiosignal",
+      "anyio",
+      "beautifulsoup4",
+      "cryptography",
+      "huggingface-hub",
+      "multidict",
+      "openai",
+      "pydantic",
+      "pydantic-core",
+      "pyee",
+      "pyopenssl",
+      "referencing",
+      "typing-inspection"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/typing-extensions/",
+    "notes": "some edges are Python-version conditional but needed across supported range",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "typing-inspection",
+    "repo": "https://github.com/pydantic/typing-inspection",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "pydantic"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/typing-inspection/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "urllib3",
+    "repo": "https://github.com/urllib3/urllib3",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "requests"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/urllib3/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "yarl",
+    "repo": "https://github.com/aio-libs/yarl",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "aiohttp"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/yarl/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  },
+  {
+    "name": "zipp",
+    "repo": "https://github.com/jaraco/zipp",
+    "ref": null,
+    "ref_type": null,
+    "install_subdir": ".",
+    "extras": [],
+    "dependency_type": "transitive",
+    "required_by": [
+      "importlib-metadata"
+    ],
+    "source_of_truth": "Bowser research from official dependency metadata/documentation for direct dependency closure",
+    "evidence_url": "https://pypi.org/project/zipp/",
+    "notes": "runtime Requires-Dist",
+    "unresolved_reason": "Ref omitted by user-approved policy; installer defaults to branch main."
+  }
+]

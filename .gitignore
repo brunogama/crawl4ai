@@ -284,9 +284,13 @@ docs/**/data
 docs/apps/linkdin/debug*/
 docs/apps/linkdin/samples/insights/*
 
-scripts/
+scripts/*
 !scripts/gen-sbom.sh
 !scripts/update_stats.py
+!scripts/install.sh
+!scripts/install-github-deps.sh
+!scripts/github-deps.json
+!scripts/github-deps-source-of-truth.md
 
 
 # Databse files
